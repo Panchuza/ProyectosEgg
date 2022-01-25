@@ -1,0 +1,15 @@
+package guia1;
+
+public class ejercicio22 {
+
+    public static void main(String[] args) {
+        int[] vector = new int[101];
+        for (int i = 0; i < 101; i++) {
+            vector[i] = i;
+        }
+        for (int i = 100; i > 0; i--) {
+          System.out.println("[" + vector[i] + "]");
+        }
+    }
+
+}
